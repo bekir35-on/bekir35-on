@@ -19,7 +19,7 @@ turning the results into recommendations. I also volunteer as a
 project records into impact reporting.
 
 - 🔭 **Focus:** data cleaning, SQL analysis, dashboards and clear reporting
-- 🌱 **Currently:** an NHS open-data project (Python → SQL → Power BI) · completing the IBM Data Science Professional Certificate (8 of 10 courses)
+- 🌱 **Currently:** adding a Power BI report to my NHS A&E project · completing the IBM Data Science Professional Certificate (8 of 10 courses)
 - 📍 **Based in:** Leicester, United Kingdom — open to Data Analyst roles
 
 ---
@@ -28,6 +28,7 @@ project records into impact reporting.
 
 | Project | Business question | Tools | Key finding |
 |---|---|---|---|
+| **[NHS A&E — Leicester vs England](https://github.com/bekir35-on/nhs-ae-analysis)** | Is Leicester really behind England on the four-hour A&E standard? | Python · pandas · SciPy · SQLite | 24 months of NHS data; like-for-like, the gap shrinks from 12.3 to **1.2 points**; England's winter dip is significant (p = 0.001), Leicester's is not |
 | **[Children in Need (CIN) analysis](https://github.com/bekir35-on/social-finance-cin)** | How do single-episode and repeat-episode children's services cases differ? | Python · Pandas · SciPy | 74,247 children analysed with Fisher's exact, Mann-Whitney U and t-tests → 3 evidence-based recommendations + stakeholder slide deck |
 | **[Online Retail — RFM segmentation](https://github.com/bekir35-on/online-retail-analysis)** | Which customers drive revenue, and how should we treat each segment? | Python · Pandas · SQL | Cleaned 541,909 → 388,345 rows (incl. netting out fully cancelled orders); **"Champions" are 14% of customers but 53% of revenue** |
 | **[UK Retail Sales — SQL analysis](https://github.com/bekir35-on/uk-retail-sql-analysis)** · [Tableau dashboard](https://public.tableau.com/app/profile/bekir.onal/viz/UKRetailSalesPerformanceDashboard/UKRetailSalesPerformanceDashboard) | Where do revenue and profit come from — by category, region, month and customer? | PostgreSQL · CTEs · window functions · Tableau | Technology is ~64% of revenue; Furniture sells well but at a ~3% margin; spotted a data-quality issue (199 names for 300 customer IDs) and grouped by ID |
